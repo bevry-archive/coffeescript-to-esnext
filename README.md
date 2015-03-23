@@ -64,7 +64,7 @@ Notes:
 
 - `arguments` is deprecated, use rest parameters instead:
   - [deprecation notice](https://groups.google.com/forum/embed/?place=forum/strengthen-js#!topic/strengthen-js/2lW_VzHBfKw)
-
+- Rest Parameters are not yet supported in chrome, Babel's compilation of Rest Params is dramatically faster than CoffeeScripts
 
 ## Traversing data object
 
@@ -85,6 +85,7 @@ Notes:
 
 - using objects for data is deprecated, [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object:
   - [deprecation and advisory notice](https://drive.google.com/file/d/0B1v38H64XQBNT1p2XzFGWWhCR1k/view) (see "Sane Objects" slide)
+- Map is faster than ES5's `Object.keys`, but slower than ES5s and CoffeeScripts `hasOwnProperty`
 
 
 ## Benchmarks
