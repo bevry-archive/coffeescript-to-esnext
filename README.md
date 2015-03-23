@@ -62,7 +62,7 @@ alert(b2.name)
 
 Notes:
 
-- `arguments` is deprecated, use [rest parameters](https://babeljs.io/docs/learn-es6/#default-rest-spread) instead:
+- `arguments` is discouraged, use [rest parameters](https://babeljs.io/docs/learn-es6/#default-rest-spread) instead:
   - [deprecation notice](https://groups.google.com/forum/embed/?place=forum/strengthen-js#!topic/strengthen-js/2lW_VzHBfKw)
 
 
@@ -83,7 +83,7 @@ data.forEach(function(value, key){
 
 Notes:
 
-- using objects for data is deprecated, [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object:
+- using objects for data is discouraged, [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object:
   - [deprecation and advisory notice](https://drive.google.com/file/d/0B1v38H64XQBNT1p2XzFGWWhCR1k/view) (see "Sane Objects" slide)
 
 
