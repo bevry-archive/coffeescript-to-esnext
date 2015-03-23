@@ -97,3 +97,12 @@ See [bevry/es6-benchmarks](https://github.com/bevry/es6-benchmarks) for performa
 Here is a listing of CoffeeScript projects that have switched to ES6 so you can compare their source code:
 
 - [TaskGroup](https://github.com/bevry/taskgroup) / [#es6](https://github.com/bevry/taskgroup/tree/es6) / [#coffee](https://github.com/bevry/taskgroup/tree/coffee)
+
+
+## Contributing
+
+Pull requests encouraged!
+
+## License
+
+Public Domain via the CC0 1.0 Universal License
