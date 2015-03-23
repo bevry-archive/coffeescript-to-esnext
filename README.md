@@ -62,7 +62,7 @@ alert(b2.name)
 
 Notes:
 
-- `arguments` is deprecated, use rest parameters instead:
+- `arguments` is deprecated, use [rest parameters](https://babeljs.io/docs/learn-es6/#default-rest-spread) instead:
   - [deprecation notice](https://groups.google.com/forum/embed/?place=forum/strengthen-js#!topic/strengthen-js/2lW_VzHBfKw)
 
 
