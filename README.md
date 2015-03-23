@@ -2,7 +2,7 @@
 
 A guide to migrate from CoffeeScript to ES6 / ES7 / ES2015
 
-## Why???
+## Why
 
 - [Bevry's Reasoning](https://discuss.bevry.me/t/move-from-coffeescript-to-es6/)
 - Add your reasoning too via a pull request!
