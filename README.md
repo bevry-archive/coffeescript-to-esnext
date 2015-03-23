@@ -85,7 +85,7 @@ Notes:
 
 - using objects for data is deprecated, [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object:
   - [deprecation and advisory notice](https://drive.google.com/file/d/0B1v38H64XQBNT1p2XzFGWWhCR1k/view) (see "Sane Objects" slide)
-- Map is faster than ES5's `Object.keys`, but slower than ES5s and CoffeeScripts `hasOwnProperty`
+- ES6's `map.forEach` is faster than ES5's `Object.keys`, but slower than ES5s and CoffeeScripts `hasOwnProperty` (this should change in the feature, leaving maps as the fastest)
 
 
 ## Benchmarks
