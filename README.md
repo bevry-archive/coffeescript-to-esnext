@@ -60,10 +60,14 @@ let b2 = B.create('ben')
 alert(b2.name)
 ```
 
+Notes:
+
+- `arguments` is deprecated because its performance cannot be optimised, use rest parameters instead:
+  - [deprecation notice](https://groups.google.com/forum/embed/?place=forum/strengthen-js#!topic/strengthen-js/2lW_VzHBfKw)
+  - [speed comparisons](https://github.com/bevry/es6-benchmarks)
+
 
 ## Traversing data object
-
-Objects should no longer be used. [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object.
 
 ``` coffee
 data = {name:'ben', company:'bevry'}
@@ -77,3 +81,8 @@ data.forEach(function(value, key){
   alert(key+': '+value)
 })
 ```
+
+Notes:
+
+- using objects for data is deprecated, [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object
+  - [deprecation and advisory notice](https://drive.google.com/file/d/0B1v38H64XQBNT1p2XzFGWWhCR1k/view) (see "Sane Objects" slide)
