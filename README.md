@@ -28,26 +28,26 @@ alert(b2.name)
 
 ``` javascript
 class A {
-  # Static method that uses rest parameters
+  // Static method that uses rest parameters
   static create (...args) {
     return new this(...args)
   }
-  # Constructor that applies first argument to this.name
+  // Constructor that applies first argument to this.name
   constructor (name) {
     this._name = name
   }
-  # Default value for name for class A
+  // Default value for name for class A
   get name () {
     return this._name || 'Default name for A'
   }
-  # Necessary setter
+  // Necessary setter
   set name (value) {
     this._name = name
   }
 }
 
 class B extends A {
-  # Default value for name for class B
+  // Default value for name for class B
   get name () {
     return this._name || 'Default name for B'
   }
