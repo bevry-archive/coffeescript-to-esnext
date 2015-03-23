@@ -59,3 +59,21 @@ alert(b1.name)
 let b2 = B.create('ben')
 alert(b2.name)
 ```
+
+
+## Traversing data object
+
+Objects should no longer be used. [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object.
+
+``` coffee
+data = {name:'ben', company:'bevry'}
+for own key, value of data
+  alert(key+': '+value)
+```
+
+``` javascript
+let data = new Map().set('name', 'ben').set('company', 'bevry')
+data.forEach(function(value, key){
+  alert(key+': '+value)
+})
+```
