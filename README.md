@@ -90,3 +90,10 @@ Notes:
 ## Benchmarks
 
 See [bevry/es6-benchmarks](https://github.com/bevry/es6-benchmarks) for performance benchmarks between ES5, CoffeeScript and ES6
+
+
+## Showcase
+
+Here is a listing of CoffeeScript projects that have switched to ES6 so you can compare their source code:
+
+- [TaskGroup](https://github.com/bevry/taskgroup) / [#es6](https://github.com/bevry/taskgroup/tree/es6) / [#coffee](https://github.com/bevry/taskgroup/tree/coffee)
