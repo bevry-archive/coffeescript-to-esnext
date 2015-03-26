@@ -90,6 +90,7 @@ Notes:
 
 - using objects for data is discouraged, [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object:
   - [deprecation and advisory notice](https://drive.google.com/file/d/0B1v38H64XQBNT1p2XzFGWWhCR1k/view) (see "Sane Objects" slide)
+- HOWEVER, Maps aren't there yet, and unless you have a large dataset, objects are fine (especially for configuration, options, and general coding things)
 
 
 ## Benchmarks
