@@ -69,6 +69,8 @@ Notes:
 
 - `arguments` is discouraged, use [rest parameters](https://babeljs.io/docs/learn-es6/#default-rest-spread) instead:
   - [deprecation notice](https://groups.google.com/forum/embed/?place=forum/strengthen-js#!topic/strengthen-js/2lW_VzHBfKw)
+- HOWEVER, if you can get away with doing `(a,b,c,d,e,f,g,etc)` instead of `(...args)`, then do that, `...args` currently has some profiling issues - (@pflannery will add details about the issues later)
+
 
 
 ## Traversing data object
@@ -90,7 +92,7 @@ Notes:
 
 - using objects for data is discouraged, [Map](https://babeljs.io/docs/learn-es6/#map-set-weak-map-weak-set) is the new data object:
   - [deprecation and advisory notice](https://drive.google.com/file/d/0B1v38H64XQBNT1p2XzFGWWhCR1k/view) (see "Sane Objects" slide)
-- HOWEVER, Maps aren't there yet, and unless you have a large dataset, objects are fine (especially for configuration, options, and general coding things)
+- HOWEVER, Maps aren't there yet, and unless you have a large dataset, objects are fine (especially for configuration, options, and general coding things) - (@pflannery will add details about the issues later)
 
 
 ## Benchmarks
